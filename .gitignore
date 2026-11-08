@@ -1,0 +1,48 @@
+# xin-dialysis · 独立 Skill 仓库
+# 原则：只有规矩、公开资料索引与文档，不得有任何真实患者数据。
+
+# 真实记录 / 导出备份 / 就诊资料
+*病历*
+*就诊资料*
+*检查报告*
+*.docx
+*.pdf
+*.xlsx
+*.xls
+*.jpg
+*.jpeg
+*.png
+/backups/
+/exports/
+*备份*.json
+*备份*.csv
+dialysis-log-*.txt
+*-backup-*.json
+/private/
+/personal/
+/records/
+
+# 海报原图（版权未确认，默认不入库）
+/assets/posters/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# 构建与测试临时产物
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+*.tmp
+_patch_*.py
+.playwright-cli/
+playwright-report/
+test-results/
