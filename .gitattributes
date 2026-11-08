@@ -1,4 +1,5 @@
-* text=auto
+# 所有文本一律 LF，不依赖本机 core.autocrlf
+* text=auto eol=lf
 
 *.md   text eol=lf
 *.json text eol=lf
